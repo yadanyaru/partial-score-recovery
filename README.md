@@ -1,5 +1,3 @@
-# Same Precision, Different Information
-
 ## Quick start: no GPU or network needed after installing dependencies
 
 Use Python 3.11 or newer. Commands work in PowerShell, Bash and other standard shells.
