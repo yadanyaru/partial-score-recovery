@@ -452,8 +452,8 @@
     },
     {
       "path": "tools/verify_release.py",
-      "bytes": 2129,
-      "sha256": "05e3e985c872e8db6a47beadea3caa8172c8c4fb90fcaa40763431c9a626b21d"
+      "bytes": 2053,
+      "sha256": "50c3b1eaf43c3b59d4ab5839dab28daf61a6ee10a5b7e89a70dd2d0b8ee4a068"
     },
     {
       "path": "work/adaptive_disclosure_synthetic.py",
