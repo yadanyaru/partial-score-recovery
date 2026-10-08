@@ -1,12 +1,5 @@
 # Same Precision, Different Information
 
-Anonymous review code for **Recovering Language Model Predictions from Partial Scores**.
-
-This repository contains the experimental implementations, CPU mathematical checks,
-anonymized reference outcomes, and analysis scripts. No model training is
-required. Reference outcomes are included so reviewers can recompute reported
-statistics without downloading models or using a GPU. Plotting code is excluded.
-
 ## Quick start: no GPU or network needed after installing dependencies
 
 Use Python 3.11 or newer. Commands work in PowerShell, Bash and other standard shells.
@@ -32,8 +25,7 @@ recomputes group statistics, paired passage intervals and comparison summaries f
 the included outcomes. Outputs go to
 `runs/reference/outputs/`; CPU checks use `runs/cpu-smoke/outputs/`.
 
-An analysis is a recalculation from stored outcomes, not a new model evaluation.
-Use a new `--workspace NAME` to repeat it after modifying generated summaries.
+An analysis is a recalculation from stored outcomes. Use a new `--workspace NAME` to repeat it after modifying generated summaries.
 All original reference files remain unchanged under `reference/`.
 
 ## Recompute model predictions and experiments
@@ -105,22 +97,4 @@ there so protocol hashes refer to the actual executed implementation. Historical
 source/protocol digests in reference files are remapped to exported anonymized
 files; statistical values, selected IDs, seeds and experimental settings are
 unchanged. See `config/export_notes.json`.
-
-## Reading the results
-
-The principal empirical test holds coordinates, decoder, lattice and packet length
-fixed while choosing among nearest, independent and shared rounding using sampled
-predictive second moments. Native adaptive comparisons and strict top-k controls
-are also included in full. They expose differences between worst-case information
-limits, average KL and task accuracy; no favorable-row filtering is performed.
-
-The complete-answer metric is the probability of matching all gold answer tokens
-under independently generated per-prefix response packets along the teacher-forced
-correct-prefix path. It is not free-running generation accuracy. Raw protocols use
-the accuracy parameter `g`; precision-selection results use mesh `d = g/2`.
-Strict top-k and native adaptive protocols use their explicitly recorded meshes.
-
-See [the experiment map](docs/EXPERIMENTS.md),
-[review anonymity notes](docs/ANONYMITY.md), and
-[third-party notices](THIRD_PARTY_NOTICES.md).
 
