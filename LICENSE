@@ -1,0 +1,15 @@
+Anonymous review distribution
+
+Copyright (c) Anonymous Authors.
+
+Permission is granted to reviewers and researchers to inspect, execute and modify
+the original code in this snapshot for evaluation and reproduction of the
+accompanying research. Copies made for those purposes must retain this notice.
+This review distribution does not grant a general commercial license. A public
+research license may be selected by the authors after the anonymous review period.
+
+The software is provided "AS IS", without warranty of any kind. The authors shall
+not be liable for claims or damages arising from its use.
+
+Third-party datasets, pretrained models and dependencies retain their own licenses
+and are excluded from the permission above. See THIRD_PARTY_NOTICES.md.

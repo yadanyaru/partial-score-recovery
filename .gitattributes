@@ -1,0 +1,4 @@
+# Preserve exact source bytes for protocol SHA256 checks.
+* -text
+*.gz binary
+*.npz binary

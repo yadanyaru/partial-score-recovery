@@ -1,0 +1,9 @@
+-r requirements-cpu.txt
+torch>=2.6,<3
+transformers==4.57.1
+huggingface_hub==0.36.0
+tokenizers==0.22.2
+safetensors>=0.4,<1
+requests>=2.31,<3
+pyarrow>=15,<26
+

@@ -1,0 +1,647 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 91,
+      "sha256": "7eb2d26c5ca0b22ab3e9bb5f907d6dd8d3ad2eb82d4e8bc2028c1bf0dd3c2567"
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "bytes": 522,
+      "sha256": "ebcf9aa7c04c057e41524af425f71526121d72b5a2e34ab9fd5ba724d068e384"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 132,
+      "sha256": "5c38b74f289c5ca0307e1ca13efc4a72ae923d2bf54e0b513e672d2515034ffb"
+    },
+    {
+      "path": "config/data_selections.json",
+      "bytes": 21637,
+      "sha256": "44623232605ab6fdb4b2342d39caa1de171e0d5acfd86caa56c0cbc77282704d"
+    },
+    {
+      "path": "config/export_notes.json",
+      "bytes": 390,
+      "sha256": "90b9119c8ca49d39cd3e77f57d9c301726109d60a5e954f7b49254277a31aee5"
+    },
+    {
+      "path": "config/original_environment.json",
+      "bytes": 529,
+      "sha256": "e12135d6b088143bc60093792aaf6635c8fa174e2b609b86ed22b729292d819c"
+    },
+    {
+      "path": "config/reference_manifest.json",
+      "bytes": 19064,
+      "sha256": "bb190d7f8d470253b8153971d1da1f34e9b178e60967d78906d6c7986ec3bfe6"
+    },
+    {
+      "path": "docs/ANONYMITY.md",
+      "bytes": 1683,
+      "sha256": "a5c8e4e8ef2c5373b17e4010d3c1b9a8d5296183703fd1290ee0a8f4ded992d9"
+    },
+    {
+      "path": "docs/EXPERIMENTS.md",
+      "bytes": 4599,
+      "sha256": "a4f9cddc94c89399368e18ade48b77c0a6f3d54345a2cdf13bf88ff6312074e7"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 759,
+      "sha256": "341604e69ab5cb57f471127d606005cbb6584ba1bd60a4bcacbaae8f9bdb0e74"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6029,
+      "sha256": "14752365edf2ab488743c38a3a1973b0f0227a6e1ff825819c8d3e1641df88cc"
+    },
+    {
+      "path": "reference/outputs/adaptive_disclosure_synthetic.json.gz",
+      "bytes": 624846,
+      "sha256": "9a806176b5cf7c52af038b22a0af384b9f251acefe81bde2017cc7636b259ee3"
+    },
+    {
+      "path": "reference/outputs/adaptive_disclosure_synthetic_protocol.json.gz",
+      "bytes": 46095,
+      "sha256": "2cf1c3894d66cd17eee37348379c258a1fa8944748f86a95871bf364405e9458"
+    },
+    {
+      "path": "reference/outputs/adaptive_disclosure_theory_checks.json.gz",
+      "bytes": 3787,
+      "sha256": "247ab2b803502752279157c3588cb896480df4f149c9037451c5bfe828b1566c"
+    },
+    {
+      "path": "reference/outputs/adaptive_floor_threshold_checks.json.gz",
+      "bytes": 178,
+      "sha256": "08e7c02ea4c9315e465ee0b34fa0cc7e9b0abb4ecbff740a41cfb5ee41ad9973"
+    },
+    {
+      "path": "reference/outputs/COMMON_PHASE_SHARED_PROTOCOL.json.gz",
+      "bytes": 283,
+      "sha256": "d72248977200fe5024970c936d880f0b3a578ef6a293ab348da82d30bc7940e6"
+    },
+    {
+      "path": "reference/outputs/common_phase_shared_witness.json.gz",
+      "bytes": 4915,
+      "sha256": "d9183e53bee44c6db47823a09c0d6d3daed56013e28a932aa31a9f23cb000489"
+    },
+    {
+      "path": "reference/outputs/common_phase_witness.json.gz",
+      "bytes": 4079,
+      "sha256": "870aaf2940753495f7935961c869f0d993bc64e486beba4bdeb7254e7181f02c"
+    },
+    {
+      "path": "reference/outputs/COMMON_PHASE_WITNESS_PROTOCOL.json.gz",
+      "bytes": 283,
+      "sha256": "22c5ba2fab6970cdb420891d353c818dea3081a07f873810807956bd9e67585c"
+    },
+    {
+      "path": "reference/outputs/explicit_known_grid_results.json.gz",
+      "bytes": 1178,
+      "sha256": "f7e03d0b66c18d20c88099e4a90d28666f8b886686b01486306a7deb3070f3a0"
+    },
+    {
+      "path": "reference/outputs/EXPLICIT_SHARED_COIN_PROTOCOL.json.gz",
+      "bytes": 324,
+      "sha256": "e0c1dff7e2628d7b50e34ae7cd94f9abb54bc7e66a65113d0bd7980c80757616"
+    },
+    {
+      "path": "reference/outputs/explicit_shared_coin_witness.json.gz",
+      "bytes": 2004,
+      "sha256": "dbf1ad17a367c564447c07c5f410f9259881be74e7a30e195b5899aa914df5ce"
+    },
+    {
+      "path": "reference/outputs/pretrained_disclosure_formal/EleutherAI__pythia-70m.json.gz",
+      "bytes": 2329710,
+      "sha256": "69f9417168e5c1c9c06778e08ad6cf3c9efc6466ecb53bc40af09ef4161bf327"
+    },
+    {
+      "path": "reference/outputs/pretrained_disclosure_formal/openai-community__gpt2.json.gz",
+      "bytes": 3207601,
+      "sha256": "d128233ac26d0b949a328cbe244d120979675b7dea93c8d89cf035793270e424"
+    },
+    {
+      "path": "reference/outputs/pretrained_disclosure_formal/Qwen__Qwen2.5-0.5B.json.gz",
+      "bytes": 3567105,
+      "sha256": "c04d8b2e1f46da06da42e105f8eb2132daebeae1ae339700f59c9a531635d1a4"
+    },
+    {
+      "path": "reference/outputs/PRETRAINED_DISCLOSURE_FORMAL_PROTOCOL.json.gz",
+      "bytes": 1320,
+      "sha256": "3ded472cbb5731f0b95534e58f3119c19f40ea81803f70969a98b93ea8f6589c"
+    },
+    {
+      "path": "reference/outputs/PRETRAINED_DISCLOSURE_FORMAL_SUMMARY.json.gz",
+      "bytes": 8205,
+      "sha256": "6c96b757cec43deb516474c812327942149b16e45df2a6c0dfc2bba00105049c"
+    },
+    {
+      "path": "reference/outputs/PRETRAINED_DISCLOSURE_IO_REPAIR_ADDENDUM.json.gz",
+      "bytes": 644,
+      "sha256": "950eb0c918ffb0e09a82d3d83d6589df8ccf1a3c3b77f91ae1a086dba724df2c"
+    },
+    {
+      "path": "reference/outputs/pretrained_shared_coin/EleutherAI__pythia-70m.json.gz",
+      "bytes": 251382,
+      "sha256": "542e3da3d0c7082e0d7fad31c90b45c3f2b53306b96ec5568000fe93fc949f08"
+    },
+    {
+      "path": "reference/outputs/pretrained_shared_coin/openai-community__gpt2.json.gz",
+      "bytes": 411682,
+      "sha256": "8eeb4429f0f9541a5b8a44cdbf3d734c8b18724c4a418e0b808d92257c50cc16"
+    },
+    {
+      "path": "reference/outputs/pretrained_shared_coin/Qwen__Qwen2.5-0.5B.json.gz",
+      "bytes": 459189,
+      "sha256": "cc5aa722dbcbb23be2e77667321549893362953e8e651539c8422916656129e8"
+    },
+    {
+      "path": "reference/outputs/PRETRAINED_SHARED_COIN_PROTOCOL.json.gz",
+      "bytes": 8868,
+      "sha256": "9f1292773b3d3061107a3fa537ff32985728b36317576e0316191d18e7f92bfd"
+    },
+    {
+      "path": "reference/outputs/PRETRAINED_SHARED_COIN_SUMMARY.json.gz",
+      "bytes": 1272,
+      "sha256": "d88cfc2e34d9c07b02f8eccc60c4864d5e2ac2da7881bae12a8ecdda7d45aee3"
+    },
+    {
+      "path": "reference/outputs/pretrained_stochastic_precision/EleutherAI__pythia-70m.json.gz",
+      "bytes": 2070462,
+      "sha256": "604a09755aea5f457c0c05abbf15ddc2382aee88f2a4caf2e8078a35db283659"
+    },
+    {
+      "path": "reference/outputs/pretrained_stochastic_precision/openai-community__gpt2.json.gz",
+      "bytes": 3106529,
+      "sha256": "49643faa42d9eaa9fb4f31f67e7f95277786d6f5f07c8114eeadb0d17a0a6fdf"
+    },
+    {
+      "path": "reference/outputs/pretrained_stochastic_precision/Qwen__Qwen2.5-0.5B.json.gz",
+      "bytes": 3700333,
+      "sha256": "ff75338b85f8ac54f86030f47805900695521ed47a9a9df27652beb28d1cd0ca"
+    },
+    {
+      "path": "reference/outputs/PRETRAINED_STOCHASTIC_PRECISION_PROTOCOL.json.gz",
+      "bytes": 8863,
+      "sha256": "30943155cd545b20f0a733ebdfeb100ff329a17175df9dae040cbaab5c392d4d"
+    },
+    {
+      "path": "reference/outputs/PRETRAINED_STOCHASTIC_PRECISION_SUMMARY.json.gz",
+      "bytes": 2762,
+      "sha256": "32f3f423a045377143b46e4304f9c2d0e73c80b3b0b6a6281fdb8fdf0ff12038"
+    },
+    {
+      "path": "reference/outputs/provider_precision/EleutherAI__pythia-70m.json.gz",
+      "bytes": 113654,
+      "sha256": "47b25d72ad705a35426ecfd5419d00104d013922a4c3fc4eeb2ad758566e6ed4"
+    },
+    {
+      "path": "reference/outputs/provider_precision/openai-community__gpt2.json.gz",
+      "bytes": 182906,
+      "sha256": "d7bdab9e5202048c184b73b21b6f1040d1762644995b2c39f7dcdace6cfdf570"
+    },
+    {
+      "path": "reference/outputs/provider_precision/Qwen__Qwen2.5-0.5B.json.gz",
+      "bytes": 202950,
+      "sha256": "cc12dafaab22a306d86cfc361c8058523df939479ff216f006840f9a02db1cb6"
+    },
+    {
+      "path": "reference/outputs/PROVIDER_PRECISION_PROTOCOL.json.gz",
+      "bytes": 8879,
+      "sha256": "beb6bf4ab694d09dae246f2af9e28a27184db672c3952887d5067d28725c63e6"
+    },
+    {
+      "path": "reference/outputs/PROVIDER_PRECISION_SUMMARY.json.gz",
+      "bytes": 1683,
+      "sha256": "9ec7bb89088985736756e498a58ef5e55dd14877c39ef4073a125b97c5d21451"
+    },
+    {
+      "path": "reference/outputs/review_adaptive/EleutherAI__pythia-70m.json.gz",
+      "bytes": 244255,
+      "sha256": "1718e091aa514c2f3bdd6d590a69a64541bca257d942b1865ee07db67beaabe6"
+    },
+    {
+      "path": "reference/outputs/review_adaptive/openai-community__gpt2.json.gz",
+      "bytes": 248394,
+      "sha256": "17889a9d08e04bb40d6cd5aba7b7cd87053e8f9121ac6b110c091c424d7f065f"
+    },
+    {
+      "path": "reference/outputs/review_adaptive/Qwen__Qwen2.5-0.5B.json.gz",
+      "bytes": 248612,
+      "sha256": "2bc274d25e0bc0a11e42ee5993a9047d3be475cf2559d180b67e69e705e1da5a"
+    },
+    {
+      "path": "reference/outputs/review_adaptive/summary.json.gz",
+      "bytes": 9663,
+      "sha256": "6718662b75989fd984221d31cd686e643f49a93106f6c6a88064377558c00c28"
+    },
+    {
+      "path": "reference/outputs/REVIEW_ADAPTIVE_PROTOCOL.json.gz",
+      "bytes": 2069,
+      "sha256": "bbc05d3790e6efd239771ec1e8d78b320fd52f26f3efc1a4b5e0f6e1f0a02858"
+    },
+    {
+      "path": "reference/outputs/REVIEW_INSTANCE_THEORY_CHECKS.json.gz",
+      "bytes": 1106,
+      "sha256": "048394ddf9633e02a4430f5919d4d9fcaef9e5a2d0392de2743bbbb8f8d27863"
+    },
+    {
+      "path": "reference/outputs/review_low_disclosure_protocol.json.gz",
+      "bytes": 379,
+      "sha256": "1480bcc7befafad920dfd9197ed0aa632e36698afefdd8aa4bdc68cc32db139f"
+    },
+    {
+      "path": "reference/outputs/review_low_disclosure_results.json.gz",
+      "bytes": 8331,
+      "sha256": "d7270996c126b379d9e474a8b7d8fce9e5b2e694eec8858fa91a620bf6a3d07f"
+    },
+    {
+      "path": "reference/outputs/review_native_states/EleutherAI__pythia-70m.json.gz",
+      "bytes": 775329,
+      "sha256": "48fa7c350cda9e1667a8d16afbd04f494936f1180f0520fff5b0a3cac97b1fab"
+    },
+    {
+      "path": "reference/outputs/review_native_states/openai-community__gpt2.json.gz",
+      "bytes": 1224316,
+      "sha256": "1d444e4d80eaab61a6dec0be1eb8832a3dcced3f9369356da6392d02883315e6"
+    },
+    {
+      "path": "reference/outputs/review_native_states/Qwen__Qwen2.5-0.5B.json.gz",
+      "bytes": 1374261,
+      "sha256": "c9dfe79d46ab4995f09aec3a4d090076f8d64458769643047bb474c7ffb32236"
+    },
+    {
+      "path": "reference/outputs/review_precision/EleutherAI__pythia-70m.json.gz",
+      "bytes": 388920,
+      "sha256": "f1e735fbe98642977b3418cb3bfac0fda67a88901637f909180c91247236ad9b"
+    },
+    {
+      "path": "reference/outputs/review_precision/openai-community__gpt2.json.gz",
+      "bytes": 372995,
+      "sha256": "ef95b878ab29153dfae3d29dc99ed395ee5d145ce6aaf17ef7ad3550813e2af5"
+    },
+    {
+      "path": "reference/outputs/review_precision/Qwen__Qwen2.5-0.5B.json.gz",
+      "bytes": 372710,
+      "sha256": "c2c5b5780811e37a17b485b7bc7b4110806fd520ff1347654e99aace62d34932"
+    },
+    {
+      "path": "reference/outputs/review_precision_replay/EleutherAI__pythia-70m_precision_replay.npz",
+      "bytes": 9372043,
+      "sha256": "09d302d2fe92144012c4a6996409e69fbdfd21bc88a1888156dbf52aaee2c60a"
+    },
+    {
+      "path": "reference/outputs/review_precision_replay/openai-community__gpt2_precision_replay.npz",
+      "bytes": 12389292,
+      "sha256": "55934e04470daa587827f6b80a5a048c0a3bea02098ce3b155fb8f1e0c814fee"
+    },
+    {
+      "path": "reference/outputs/review_precision_replay/Qwen__Qwen2.5-0.5B_precision_replay.npz",
+      "bytes": 13980178,
+      "sha256": "18ee67e74751a720647198a8148e0266704b9cd1a6f6f573553393e29aa7685c"
+    },
+    {
+      "path": "reference/outputs/REVIEW_PRECISION_UTILITY_PROTOCOL.json.gz",
+      "bytes": 9519,
+      "sha256": "78a4a18bd12751fa602a95e8f8d29ab986a511d22f62cc4f29bdd5a9c6507aea"
+    },
+    {
+      "path": "reference/outputs/REVIEW_PRECISION_UTILITY_SUMMARY.json.gz",
+      "bytes": 10143,
+      "sha256": "8dc1e81329f5655e0d8f23cf6dc79e7fbae1d0f0b7465fc1f350c7ecd07d3a1b"
+    },
+    {
+      "path": "reference/outputs/REVIEW_REPLAY_MANIFEST.json.gz",
+      "bytes": 332,
+      "sha256": "b6d0a5f3587f0c2ab2552ab0a6426dd39795dcd1d7de68a6323e9bc56a4d126e"
+    },
+    {
+      "path": "reference/outputs/REVIEW_STATE_PROTOCOL.json.gz",
+      "bytes": 720,
+      "sha256": "310300c6e791427a545a512241bd35c7957b6cb6e2659c30b1e998b4e9320228"
+    },
+    {
+      "path": "reference/outputs/review_topk/EleutherAI__pythia-70m.json.gz",
+      "bytes": 152437,
+      "sha256": "221941f43673f8fd181c3b01170dcc39e299060915745a8cbbe931bf4ad5c5bb"
+    },
+    {
+      "path": "reference/outputs/review_topk/openai-community__gpt2.json.gz",
+      "bytes": 150099,
+      "sha256": "52ae544aa8dc05587405cd9f7d8d397ac6120e8ec20ca944197c359ab9d1ef73"
+    },
+    {
+      "path": "reference/outputs/review_topk/Qwen__Qwen2.5-0.5B.json.gz",
+      "bytes": 149228,
+      "sha256": "c4b4b4fa523cee539887bee3fdb50e40c4a86472b108f178c5e14609343b8789"
+    },
+    {
+      "path": "reference/outputs/REVIEW_TOPK_PROTOCOL.json.gz",
+      "bytes": 2296,
+      "sha256": "383fb230965cdbeaf804ecaf9215dac4e3c9a7fad3b413e7a43f277e163acb14"
+    },
+    {
+      "path": "reference/outputs/risk_selected_precision/EleutherAI__pythia-70m.json.gz",
+      "bytes": 77377,
+      "sha256": "29edfb0f7336fc76b341f8b42d293d5b7435601572dd2d5427e178688a125255"
+    },
+    {
+      "path": "reference/outputs/risk_selected_precision/openai-community__gpt2.json.gz",
+      "bytes": 123522,
+      "sha256": "bcc264acd77d5a725fecdce2848a4d44c39c6f3da90dd3faa8a3ef2ecdd7abbe"
+    },
+    {
+      "path": "reference/outputs/risk_selected_precision/Qwen__Qwen2.5-0.5B.json.gz",
+      "bytes": 137691,
+      "sha256": "cdf0f72f188d4c07ff586e228c1968a21fcb2dd5d50e21b372ac61ef84d246f1"
+    },
+    {
+      "path": "reference/outputs/RISK_SELECTED_PRECISION_BOOTSTRAP.json.gz",
+      "bytes": 517,
+      "sha256": "3a25a79830d1059d25c76155f4d6fc68af0363c7b2e21a966cb7570ab8e52217"
+    },
+    {
+      "path": "reference/outputs/RISK_SELECTED_PRECISION_PROTOCOL.json.gz",
+      "bytes": 8869,
+      "sha256": "816eb443692fa12dbf2d1cb93c56b53e58c19ff40b2a640f877440df3f69974d"
+    },
+    {
+      "path": "reference/outputs/RISK_SELECTED_PRECISION_SUMMARY.json.gz",
+      "bytes": 2127,
+      "sha256": "044bfcd73521ada90a159a9c9a17d865af22c1ab565ed534cba629fd85c97d6a"
+    },
+    {
+      "path": "reference/outputs/sampled_precision/EleutherAI__pythia-70m.json.gz",
+      "bytes": 240531,
+      "sha256": "6282c44b6a174adb00c94a8d3f10d48f213bee6dcf980af52fe40ac519340c69"
+    },
+    {
+      "path": "reference/outputs/sampled_precision/openai-community__gpt2.json.gz",
+      "bytes": 240247,
+      "sha256": "8205dfb08779d850b1869f64eccde6f6cde762f6046250837bda2aa1b170ce37"
+    },
+    {
+      "path": "reference/outputs/sampled_precision/Qwen__Qwen2.5-0.5B.json.gz",
+      "bytes": 163031,
+      "sha256": "60ea418980ab3dee53bcdbcd780573a62feab9532a8620c1fc9b409541a5e3f6"
+    },
+    {
+      "path": "reference/outputs/SAMPLED_PRECISION_PROTOCOL.json.gz",
+      "bytes": 8673,
+      "sha256": "aff99f9c36d1998646bcb260c84a70defff3b383f33e73463c194a627e99938f"
+    },
+    {
+      "path": "reference/outputs/SAMPLED_PRECISION_SUMMARY.json.gz",
+      "bytes": 1228,
+      "sha256": "19b84682d89b89c6173a579fe7188e322780231b34f956a66e8a3899dfd67e25"
+    },
+    {
+      "path": "reference/outputs/SHARED_COIN_PROTOCOL.json.gz",
+      "bytes": 422,
+      "sha256": "7e55d0a9ea63a9a0e36240f7e755699066b4d509c40a2e1852903dea5fd01203"
+    },
+    {
+      "path": "reference/outputs/shared_coin_results.json.gz",
+      "bytes": 19887,
+      "sha256": "1dc69b12f15d5172f0c8505a50c1d47c0bc38755983ded9288b0a7c1e8f213c6"
+    },
+    {
+      "path": "reference/outputs/static_adaptive_separation_checks.json.gz",
+      "bytes": 331,
+      "sha256": "e65985ec832fcc0980901bc337ef82dfc2700c2b163be0f24f5ba8cc018711d7"
+    },
+    {
+      "path": "reference/outputs/stochastic_precision_diagnostic.json.gz",
+      "bytes": 1284373,
+      "sha256": "d0be743f34fe392fd90a44819db80506e9999f2b2a45ee1d2636b4fd4cbc1675"
+    },
+    {
+      "path": "reference/outputs/STOCHASTIC_PRECISION_DIAGNOSTIC_PROTOCOL.json.gz",
+      "bytes": 64522,
+      "sha256": "0a8e8c7b54d6645f1f705cd3f433b80576a7fffb2a14db754ae71053365cbfb4"
+    },
+    {
+      "path": "requirements-cpu.txt",
+      "bytes": 73,
+      "sha256": "f1f5ad89a337ef019f899556053f625ad265287172f20e60a6ee7ef834bff446"
+    },
+    {
+      "path": "requirements-gpu.txt",
+      "bytes": 157,
+      "sha256": "3fd010393d840aac47c262ab24961df4c1868ec220eb63e6a77efdc301f4751f"
+    },
+    {
+      "path": "review.py",
+      "bytes": 10863,
+      "sha256": "1035710b2cb22f103cfcb81f63438cead32f4804dffcecbd26fb2e3360372d54"
+    },
+    {
+      "path": "tests/test_recovery_kernels.py",
+      "bytes": 3118,
+      "sha256": "3e576b00bfaeb73538258dcc64c9d7f8512314ba1d88d251626b3dc9bba3df1f"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1848,
+      "sha256": "8c2cf0ad26b77267864d3e3f17478abacf93d2d5fbcb33df87c60042f2e67512"
+    },
+    {
+      "path": "tools/__init__.py",
+      "bytes": 44,
+      "sha256": "fd1b607b382dacd15336ee4c252f08247a07d6498f48341a9d2b265c721576c8"
+    },
+    {
+      "path": "tools/verify_release.py",
+      "bytes": 2129,
+      "sha256": "05e3e985c872e8db6a47beadea3caa8172c8c4fb90fcaa40763431c9a626b21d"
+    },
+    {
+      "path": "work/adaptive_disclosure_synthetic.py",
+      "bytes": 18769,
+      "sha256": "5f0bc2f53a646ab0bd81e1e6b7a398fb7ac0b2840fc3cc22e1c5efab48ca61fb"
+    },
+    {
+      "path": "work/analyze_pretrained_disclosure_formal.py",
+      "bytes": 5710,
+      "sha256": "15d988572074811cc37e27903583ec9d30e2338aab6dea7ab6b2cbb273495ca5"
+    },
+    {
+      "path": "work/analyze_pretrained_shared_coin.py",
+      "bytes": 3071,
+      "sha256": "20e1ab20bb69047230b19ee6c614f52b2763d1e37a271fa733dd95af09c56289"
+    },
+    {
+      "path": "work/analyze_provider_precision.py",
+      "bytes": 3897,
+      "sha256": "f9356b592b9623548fc9210989dd2d9c3ecc029f1859db6a932d5ce51f8643ff"
+    },
+    {
+      "path": "work/analyze_review_adaptive.py",
+      "bytes": 8671,
+      "sha256": "f3aca6fa066282933665afbab36a61305ac42bb1e883b318b349183fe7c8f0f6"
+    },
+    {
+      "path": "work/analyze_review_precision.py",
+      "bytes": 6935,
+      "sha256": "a33034e9a59f355f79ac886b345579e16d732f21ddf2bbf51db5310b4772c6bb"
+    },
+    {
+      "path": "work/analyze_risk_selected_precision.py",
+      "bytes": 4351,
+      "sha256": "c9ffa3df57da2eec4e18f0a72af8de485f8c3b044485efc2524a7b5f45b93877"
+    },
+    {
+      "path": "work/analyze_sampled_precision.py",
+      "bytes": 3465,
+      "sha256": "4627335e03b860d99cfe924556f5e396f745ea39f9c0d3859aaa4ee8dca0416b"
+    },
+    {
+      "path": "work/analyze_stochastic_precision.py",
+      "bytes": 4796,
+      "sha256": "b4d3b39c7e2333b1461da2aa87ed4edaf8a142289f11df33d5532760fe8fb04c"
+    },
+    {
+      "path": "work/bootstrap_risk_selected_precision.py",
+      "bytes": 1137,
+      "sha256": "4840a7180c451ea39ebac9585a2c9111e378a5a9477199d9b7d226a779a8b2b7"
+    },
+    {
+      "path": "work/check_adaptive_disclosure_theory.py",
+      "bytes": 3002,
+      "sha256": "f44659b7fcabaf8b76d256dbbd7369a29fdcb508079f3da64f2a51e24febd2bc"
+    },
+    {
+      "path": "work/check_adaptive_floor_thresholds.py",
+      "bytes": 1524,
+      "sha256": "18e15200328ee64d4f545b59e55f0805a847ae8f4f9982f508e9f69274e300b3"
+    },
+    {
+      "path": "work/check_linear_gap_geometry.py",
+      "bytes": 1938,
+      "sha256": "c63353c4ae0ebb0d835150a3e2cf3b970fe8f2e1bdde76172a9f1ff6f88cc581"
+    },
+    {
+      "path": "work/check_mub_head.py",
+      "bytes": 2360,
+      "sha256": "9550b1c8825bcf91cd9d20085313a204440d8c49ac2880a2b18909a099537b58"
+    },
+    {
+      "path": "work/check_review_instance_theory.py",
+      "bytes": 11783,
+      "sha256": "4d9603f85e231f81732ea3333902a9ab45407e5a05dcd4ee651ab13861753756"
+    },
+    {
+      "path": "work/check_static_adaptive_separation.py",
+      "bytes": 2178,
+      "sha256": "08c22b011208de0ec5d0059b72a8cbb35a853b49e4c7fd82abf2e3902b7c36fa"
+    },
+    {
+      "path": "work/common_phase_shared_witness.py",
+      "bytes": 4151,
+      "sha256": "eefe55280fcb034494df3f7ddc2f2d2001d887d115b7c263d15cf505d1c859f3"
+    },
+    {
+      "path": "work/common_phase_witness.py",
+      "bytes": 3533,
+      "sha256": "a950a3690c2b2219852773e68f2536ad59a8d78ca5c5e71e1b0980ac6af94852"
+    },
+    {
+      "path": "work/explicit_known_grid.py",
+      "bytes": 3380,
+      "sha256": "8a4e3af939b2910c9140f9ce3f5705fede11d5a47286b15d7a967999fab9f410"
+    },
+    {
+      "path": "work/explicit_shared_coin_witness.py",
+      "bytes": 3557,
+      "sha256": "d8fc14b2112fd7af1eab97367a66eb7ade679759f5a2dde62654e322e06c7543"
+    },
+    {
+      "path": "work/frozen_models.py",
+      "bytes": 217,
+      "sha256": "81216daaacf72d736dbadcd7925723b6745fb1ee8aab63abf0fda7c5b9d70423"
+    },
+    {
+      "path": "work/pretrained_disclosure_formal.py",
+      "bytes": 21730,
+      "sha256": "9ae65dc432d198232d4781fca70808ee6e3f97812a58b34180641a730bb0cb51"
+    },
+    {
+      "path": "work/pretrained_disclosure_io_repair.py",
+      "bytes": 22755,
+      "sha256": "307c227c1dc015c516b4078b4bb592366b59310cc4e794ba37bd0908fe4bae0a"
+    },
+    {
+      "path": "work/pretrained_shared_coin.py",
+      "bytes": 13452,
+      "sha256": "fc9e92352b6ef13404e9b04b1fd4323903b388af634bec03b20a4b22263526f9"
+    },
+    {
+      "path": "work/pretrained_stochastic_precision.py",
+      "bytes": 11973,
+      "sha256": "87e1c57cc9270237e322b3cdd6990391f8895e4cd635fd7e0b8d4410371b454d"
+    },
+    {
+      "path": "work/provider_precision_pretrained.py",
+      "bytes": 14156,
+      "sha256": "68f317df629611dfb7b46263e7956dbb0fa301f67b9563376a44241a25cadb79"
+    },
+    {
+      "path": "work/review_adaptive_bridge.py",
+      "bytes": 17761,
+      "sha256": "450304d22e62ef68eff35951074bc95ccff4b1ebfa0d32cd0901aedbfab156d6"
+    },
+    {
+      "path": "work/review_box_qp.py",
+      "bytes": 3403,
+      "sha256": "a2c45027d63c938187f45c091497a07e67c24ff772aec37cbf5635cdc5a274be"
+    },
+    {
+      "path": "work/review_low_disclosure.py",
+      "bytes": 8370,
+      "sha256": "7b3e2919d5aca51904c18b434c60daf5e22c0f187144e972ad19bd78598fffcd"
+    },
+    {
+      "path": "work/review_precision_utility.py",
+      "bytes": 12485,
+      "sha256": "c9f9922c04cd208eff34f0da8d25868441b5072814b9ee20e7e50c9ad820f8a5"
+    },
+    {
+      "path": "work/review_prepare_states.py",
+      "bytes": 4930,
+      "sha256": "11e6bc86b23c11bde486c66d45608b8ff82184bc1e31cbf16d0377c2a668c2a5"
+    },
+    {
+      "path": "work/review_topk_interface.py",
+      "bytes": 11301,
+      "sha256": "bf9e6e76c064717f4b5eac70589f33bb1dbda9bce06f8c78b8107c76c5dbcde4"
+    },
+    {
+      "path": "work/risk_selected_precision_pretrained.py",
+      "bytes": 14190,
+      "sha256": "4c517a88225750c7551a708afb523190270b2a7fa1d80b9ca84b70b4c2c32a80"
+    },
+    {
+      "path": "work/runtime_paths.py",
+      "bytes": 390,
+      "sha256": "62fc7f0ff8fa8497ce7be2376dc1a5ae41119d6ddc0473361bf17f33ee3604f3"
+    },
+    {
+      "path": "work/sample_precision_ablation.py",
+      "bytes": 7665,
+      "sha256": "94a3472f34dead11db9e9d252d4f6ffa11c7ba1e930ec76f15fe4aee3c06824f"
+    },
+    {
+      "path": "work/shared_coin_diagnostic.py",
+      "bytes": 4110,
+      "sha256": "f815a8175ecb689d0f9cf6bd534ebb1b36bf7450b060665c7cda498a2633f866"
+    },
+    {
+      "path": "work/stochastic_precision_diagnostic.py",
+      "bytes": 8385,
+      "sha256": "5f1c342146df5f5fa369b9a91ee79a7d250a9b4eac637735be41bc534bddd4c2"
+    }
+  ],
+  "plotting_code_included": false,
+  "model_weights_included": false,
+  "git_history_included": false
+}

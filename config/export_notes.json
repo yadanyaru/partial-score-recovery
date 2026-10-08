@@ -1,0 +1,14 @@
+{
+  "code_changes": [
+    "configurable roots and caches",
+    "CPU check provenance refers to its own source rather than internal development notes"
+  ],
+  "data_changes": [
+    "local paths anonymized",
+    "provenance digests remapped to exported files"
+  ],
+  "outcome_values_unchanged": true,
+  "reference_files": 73,
+  "scripts": 37,
+  "plotting_code_included": false
+}
