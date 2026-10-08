@@ -1,4 +1,4 @@
-## Quick start: no GPU or network needed after installing dependencies
+## Quick start
 
 Use Python 3.11 or newer. Commands work in PowerShell, Bash and other standard shells.
 
